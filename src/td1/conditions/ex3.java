@@ -1,4 +1,4 @@
-package td1;
+package td1.conditions;
 import java.util.Scanner;
 
 public class ex3 { public static void main(String[] args) {
