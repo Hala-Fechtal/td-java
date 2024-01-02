@@ -8,7 +8,7 @@ public class ex3 {
         Livre l4 = new Livre("One piece", "Oda", 20);
         Livre l5 = new Livre("One piece", "Oda", 20, 1997);
         Livre l6 = new Livre(l5);
-        System.out.println(l1);
+        System.out.println(l6);
 
 
 

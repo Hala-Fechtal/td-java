@@ -51,7 +51,8 @@ class Rectangle{
     }
 
     public boolean isCarre(){
-        return  largeur == longueur;
+        if(largeur == longueur) return true;
+        else return false;
     }
 
     @Override
@@ -61,7 +62,7 @@ class Rectangle{
                 ", largeur=" + largeur +
                 ", perimetre=" + perimetre() +
                 ", aire=" + aire() +
-                ", isCarre=" + (isCarre() ? "Oui" : "Non") +
+                ", isCarre=" + isCarre()  +
                 '}';
     }
 }
